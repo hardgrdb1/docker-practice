@@ -13,7 +13,7 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "DockerReact2"
+  app: "docker-react2"
   env: "DockerReact2-env"
   bucket_name: "elasticbeanstalk-us-east-1-434478805792"
   bucket_path: "docker-react2"
